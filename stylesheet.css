@@ -1,3 +1,107 @@
 body {
     font-family: "Roboto";
 }
+
+.header {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color:#1F2937;
+    color: white;
+}
+
+.header-logo{
+    font-size:24px;
+    color:#F9FAF8;
+    margin-left: 100px;
+}
+
+ul{
+    display:flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.intro {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937;
+    color:#F9FAF8;
+}
+
+.first-site-description{
+    width:500px;
+}
+
+.intro-big-text{
+    color:#F9FAF8;
+    font-size:48px;
+    font-weight: 900;
+}
+
+.intro-under-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.random-info{
+    display:flex;
+    flex-direction: column;
+}
+
+.random-info-header{
+    display: flex;
+    justify-content: center;
+}
+
+.pics-texts{
+    display:flex;
+    justify-content:space-around;
+}
+
+.random-info-header{
+    color:#1F2937;
+    font-size:36px;
+    font-weight: 900;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-size:36px;
+    color:#1F2937;
+    font-style:italic;
+}
+
+.quote-attribution{
+    color:#1F2937;
+}
+
+.sign-up{
+    display:flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    background-color:#1F2937;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.box {
+    background-color: #3882F6;
+}
